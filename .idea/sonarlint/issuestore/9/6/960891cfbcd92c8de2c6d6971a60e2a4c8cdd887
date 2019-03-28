@@ -1,0 +1,23 @@
+
+Msquid:S1905A"*Remove this unnecessary cast to "MapView".(¬Ö©âøÿÿÿÿ8Á£„œ-
+Xsquid:S1161z":Add the "@Override" annotation above this method signature(ßû¢½8Á£„œ-
+csquid:CallToDeprecatedMethodH"/Remove this use of "setZoom"; it is deprecated.(ò¦ˆ¶øÿÿÿÿ8Á£„œ-
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8Á£„œ-
+rsquid:UselessImportCheck	"BRemove this unused import 'android.support.v4.app.ActivityCompat'.(Äüşÿÿÿÿ8Á£„œ-
+asquid:UselessImportCheck"6Remove this unused import 'android.location.Criteria'.(ñÈ¬8Á£„œ-
+csquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8Á£„œ-
+hsquid:CommentedOutCodeLinei"<This block of commented-out lines of code should be removed.(ó‡‘d8Á£„œ-
+nsquid:UselessImportCheck">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8Á£„œ-
+isquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(ôÍÅ•8Á£„œ-
+[squid:UselessImportCheck#"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Á£„œ-
+vsquid:UselessImportCheck"KRemove this unused import 'org.osmdroid.views.overlay.ItemizedIconOverlay'.(È×‘ó8Á£„œ-
+|squid:UselessImportCheck"LRemove this unused import 'com.google.android.gms.maps.model.GroundOverlay'.(æ‡Õ©ıÿÿÿÿ8Á£„œ-
+Ssquid:S1481J"0Remove this unused "ecouteurGPS" local variable.(òÈß–ÿÿÿÿÿ8Á£„œ-
+{squid:UselessImportCheck"PRemove this unused import 'org.osmdroid.views.overlay.ItemizedOverlayWithFocus'.(¢”º¦8Á£„œ-
+bsquid:S1854J"?Remove this useless assignment to local variable "ecouteurGPS".(òÈß–ÿÿÿÿÿ8Á£„œ-
+isquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(ôÍÅ•8Á£„œ-
+^squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8Á£„œ-
+Xsquid:S1161q":Add the "@Override" annotation above this method signature(öÿÕÅ8Á£„œ-
+nsquid:UselessImportCheck"CRemove this unused import 'org.osmdroid.views.overlay.OverlayItem'.(Àß”8Á£„œ-
+]squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8Á£„œ-
+hsquid:UselessImportCheck"=Remove this unused import 'android.location.LocationManager'.(Ü©ÎÎ8Á£„œ-
