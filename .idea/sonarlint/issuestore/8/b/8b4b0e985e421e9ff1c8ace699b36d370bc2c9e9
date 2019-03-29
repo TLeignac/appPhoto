@@ -1,0 +1,6 @@
+
+\squid:UnusedPrivateMethod"2Remove this unused private "cursorToImage" method.(Ú’¯Ò8«ºß¥œ-
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯»’8«ºß¥œ-
+Dsquid:S1125"(Remove the literal "true" boolean value.(‚Ä¯Ù8«ºß¥œ-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›÷¨¡8«ºß¥œ-
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8«ºß¥œ-

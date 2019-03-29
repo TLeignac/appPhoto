@@ -1,0 +1,25 @@
+
+\squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8î…˜©œ-
+Vsquid:S1161":Add the "@Override" annotation above this method signature(öÿÕÅ8î…˜©œ-
+_squid:UselessImportCheck"6Remove this unused import 'android.location.Criteria'.(ñÈ¬8î…˜©œ-
+zsquid:UselessImportCheck"LRemove this unused import 'com.google.android.gms.maps.model.GroundOverlay'.(æ‡Õ©ıÿÿÿÿ8î…˜©œ-
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8î…˜©œ-
+Ksquid:S1905"*Remove this unnecessary cast to "MapView".(¬Ö©âøÿÿÿÿ8î…˜©œ-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( ¿Ş–ÿÿÿÿÿ8î…˜©œ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÍÅ•8î…˜©œ-
+asquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8î…˜©œ-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÓÂîT8î…˜©œ-
+psquid:UselessImportCheck"BRemove this unused import 'android.support.v4.app.ActivityCompat'.(Äüşÿÿÿÿ8î…˜©œ-
+asquid:CallToDeprecatedMethod"/Remove this use of "setZoom"; it is deprecated.(ò¦ˆ¶øÿÿÿÿ8î…˜©œ-
+ysquid:UselessImportCheck"PRemove this unused import 'org.osmdroid.views.overlay.ItemizedOverlayWithFocus'.(¢”º¦8î…˜©œ-
+lsquid:UselessImportCheck"CRemove this unused import 'org.osmdroid.views.overlay.OverlayItem'.(Àß”8î…˜©œ-
+nsquid:UselessImportCheck"ERemove this unused import 'android.support.v4.content.ContextCompat'.(¹†Ç8î…˜©œ-
+Vsquid:S1161":Add the "@Override" annotation above this method signature(ßû¢½8î…˜©œ-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÍÅ•8î…˜©œ-
+tsquid:UselessImportCheck"KRemove this unused import 'org.osmdroid.views.overlay.ItemizedIconOverlay'.(È×‘ó8î…˜©œ-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ó‡‘d8î…˜©œ-
+psquid:CallToDeprecatedMethod">Remove this use of "setBuiltInZoomControls"; it is deprecated.(ßíİŠÿÿÿÿÿ8î…˜©œ-
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8î…˜©œ-
+\squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8î…˜©œ-
+{squid:UselessImportCheck"MRemove this unused import 'com.google.android.gms.location.LocationListener'.(„§û›ıÿÿÿÿ8î…˜©œ-
+lsquid:UselessImportCheck">Remove this unused import 'android.content.pm.PackageManager'.(€®¥õÿÿÿÿÿ8î…˜©œ-

@@ -1,0 +1,20 @@
+
+csquid:S1192"GDefine a constant instead of duplicating this literal "filtre" 4 times.(àï•Š8‚©™§œ-
+Hsquid:S1068"'Remove this unused "img" private field.(ëƒ‡üÿÿÿÿ8‚©™§œ-
+vsquid:S1450"URemove the "layout" field and declare it as a local variable in the relevant methods.(‚Ë·¸úÿÿÿÿ8‚©™§œ-
+nsquid:S1450"RRemove the "ret" field and declare it as a local variable in the relevant methods.(‚¾¦ğ8‚©™§œ-
+wsquid:S1450"VRemove the "filtrer" field and declare it as a local variable in the relevant methods.(†ªûùÿÿÿÿ8‚©™§œ-
+usquid:S1450"TRemove the "infos" field and declare it as a local variable in the relevant methods.(œÑ–Ûúÿÿÿÿ8‚©™§œ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤ªÑÉÿÿÿÿÿ8‚©™§œ-
+Msquid:S1481"1Remove this unused "heightScreen" local variable.(ÌÒ¢8‚©™§œ-
+Xsquid:S1854"7Remove this useless assignment to local variable "tab".(´ÃîÅıÿÿÿÿ8‚©™§œ-
+\squid:S1854"@Remove this useless assignment to local variable "heightScreen".(ÌÒ¢8‚©™§œ-
+fsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8‚©™§œ-
+bsquid:UselessImportCheck"4Remove this unused import 'android.widget.GridView'.(éĞÏ«ÿÿÿÿÿ8‚©™§œ-
+asquid:UselessImportCheck"3Remove this unused import 'android.os.Environment'.(É¿‹Ãûÿÿÿÿ8‚©™§œ-
+nsquid:UselessImportCheck"ERemove this unused import 'android.graphics.drawable.BitmapDrawable'.(³Ï÷8‚©™§œ-
+\squid:UselessImportCheck"3Remove this unused import 'android.view.ViewGroup'.(‹îá8‚©™§œ-
+Rsquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥Å8‚©™§œ-
+fsquid:UselessImportCheck"8Remove this unused import 'android.widget.ArrayAdapter'.( €ŠÑÿÿÿÿÿ8‚©™§œ-
+[squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8‚©™§œ-

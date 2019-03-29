@@ -1,6 +1,7 @@
 package osmdroid.org.map;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Criteria;
 import android.location.Location;
@@ -14,6 +15,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.gms.location.LocationListener;
@@ -43,9 +45,10 @@ import static org.osmdroid.views.overlay.gridlines.LatLonGridlineOverlay.fontSiz
 
 public class CarteActivity extends AppCompatActivity{
     MapView map = null;
-    TextView latitude;
+    //TextView latitude;
     double zoommax = 5;
-    TextView longitude;
+    //TextView longitude;
+    private ImageView ret;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,8 +68,9 @@ public class CarteActivity extends AppCompatActivity{
         setContentView(R.layout.map_activity);
 
         map = (MapView) findViewById(R.id.map);
-        latitude = (TextView) findViewById(R.id.latitude);
-        longitude = (TextView) findViewById(R.id.longitude);
+        ret = findViewById(R.id.ret);
+        //latitude = (TextView) findViewById(R.id.latitude);
+        //longitude = (TextView) findViewById(R.id.longitude);
         map.setTileSource(TileSourceFactory.MAPNIK);
         map.setBuiltInZoomControls(true);
         map.setClickable(true);
@@ -74,6 +78,14 @@ public class CarteActivity extends AppCompatActivity{
         IMapController mapController = map.getController();
         map.getController().setZoom(15);
         map.setMinZoomLevel(zoommax);
+        ret.setImageResource(R.drawable.fleche_retour);
+        ret.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent act = new Intent(CarteActivity.this,DetailsPhotoActivity.class);
+                startActivity(act);
+            }
+        });
 
         GeoPoint startPoint = new GeoPoint(48.8583, 2.2944);
         mapController.setCenter(startPoint);
@@ -102,7 +114,7 @@ public class CarteActivity extends AppCompatActivity{
         mapController.animateTo(mLocationOverlay.getMyLocation());
 
 
-        latitude.setText(String.format("Latitude : %f", mLocationOverlay.getMyLocation()));
+        //latitude.setText(String.format("Latitude : %f", mLocationOverlay.getMyLocation()));
 
         Marker startMarker = new Marker(map);
         startMarker.setPosition(startPoint);
@@ -110,7 +122,7 @@ public class CarteActivity extends AppCompatActivity{
         map.getOverlays().add(startMarker);
 
         //startMarker.setIcon(getResources().getDrawable(R.drawable.android));
-        //startMarker.setTitle("Start point");
+        startMarker.setTitle("lieu de la photo");
         //enables this opt in feature
 
     }

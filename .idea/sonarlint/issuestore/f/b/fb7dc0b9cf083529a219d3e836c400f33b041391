@@ -1,0 +1,11 @@
+
+dsquid:S1192"HDefine a constant instead of duplicating this literal "details" 3 times.(³·¿Ö8¾ÿÇ¦œ-
+Ksquid:S1068"*Remove this unused "layout" private field.(†Ïìúùÿÿÿÿ8¾ÿÇ¦œ-
+vsquid:S1450"URemove the "layout" field and declare it as a local variable in the relevant methods.(†Ïìúùÿÿÿÿ8¾ÿÇ¦œ-
+nsquid:S1450"RRemove the "imv" field and declare it as a local variable in the relevant methods.(óŠºê8¾ÿÇ¦œ-
+osquid:S1450"SRemove the "back" field and declare it as a local variable in the relevant methods.(Ä­ìé8¾ÿÇ¦œ-
+wsquid:S1450"VRemove the "partage" field and declare it as a local variable in the relevant methods.(¶Ü€ıúÿÿÿÿ8¾ÿÇ¦œ-
+tsquid:S1450"XRemove the "supprimer" field and declare it as a local variable in the relevant methods.(Ş€Úü8¾ÿÇ¦œ-
+psquid:S1450"TRemove the "carte" field and declare it as a local variable in the relevant methods.(‰Óß8¾ÿÇ¦œ-
+_squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8¾ÿÇ¦œ-
+csquid:UselessImportCheck":Remove this unused import 'android.content.ContentValues'.(å’µŞ8¾ÿÇ¦œ-
