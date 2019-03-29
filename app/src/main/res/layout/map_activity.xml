@@ -11,7 +11,7 @@
         android:layout_height="46dp"
         android:layout_weight="0.90"
         app:srcCompat="@drawable/fleche_retour" />
-
+    
     <org.osmdroid.views.MapView
         android:id="@+id/map"
         android:layout_width="match_parent"

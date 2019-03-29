@@ -87,6 +87,14 @@ public class CarteActivity extends AppCompatActivity{
             }
         });
 
+        GpsMyLocationProvider provider = new GpsMyLocationProvider(getApplicationContext());
+        provider.addLocationSource(LocationManager.NETWORK_PROVIDER);
+        //provider.addLocationSource(LocationManager.GPS_PROVIDER);
+        MyLocationNewOverlay mLocationOverlay = new MyLocationNewOverlay(provider, map);
+        mLocationOverlay.enableMyLocation();
+        map.getOverlays().add(mLocationOverlay);
+        mapController.animateTo(mLocationOverlay.getMyLocation());
+
         GeoPoint startPoint = new GeoPoint(48.8583, 2.2944);
         mapController.setCenter(startPoint);
 
@@ -105,13 +113,6 @@ public class CarteActivity extends AppCompatActivity{
 
 
 
-        GpsMyLocationProvider provider = new GpsMyLocationProvider(getApplicationContext());
-        provider.addLocationSource(LocationManager.NETWORK_PROVIDER);
-        //provider.addLocationSource(LocationManager.GPS_PROVIDER);
-        MyLocationNewOverlay mLocationOverlay = new MyLocationNewOverlay(provider, map);
-        mLocationOverlay.enableMyLocation();
-        map.getOverlays().add(mLocationOverlay);
-        mapController.animateTo(mLocationOverlay.getMyLocation());
 
 
         //latitude.setText(String.format("Latitude : %f", mLocationOverlay.getMyLocation()));
@@ -122,7 +123,7 @@ public class CarteActivity extends AppCompatActivity{
         map.getOverlays().add(startMarker);
 
         //startMarker.setIcon(getResources().getDrawable(R.drawable.android));
-        startMarker.setTitle("lieu de la photo");
+        startMarker.setTitle("Lieu de la photo");
         //enables this opt in feature
 
     }

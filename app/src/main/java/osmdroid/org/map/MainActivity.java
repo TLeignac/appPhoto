@@ -72,6 +72,19 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+
+            if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
+                    == PackageManager.PERMISSION_DENIED) {
+
+                Log.d("permission", "permission denied to WITE STORAGE - requesting it");
+                String[] permissions = {Manifest.permission.ACCESS_FINE_LOCATION};
+
+                requestPermissions(permissions, PERMISSION_REQUEST_CODE);
+
+            }
+        }
+
         galerie = new GallerieBDD(getApplicationContext());
         //////
         text = findViewById(R.id.text);
